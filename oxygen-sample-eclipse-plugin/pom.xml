@@ -31,6 +31,7 @@
   </developers>
   <properties>
 		<manifest.file>${project.basedir}/target/MANIFEST.MF.TMP</manifest.file>
+		<bundle.version>1.0.0</bundle.version>
 	</properties>
 
 	<dependencies>
@@ -123,8 +124,7 @@
 
 								<replaceregexp file="${manifest.file}" match="Bundle-Name: (.*)" replace="Bundle-Name: ${project.name}" byline="true" />
 
-								<replaceregexp file="${manifest.file}" match="Bundle-Version: (.*)" replace="Bundle-Version: ${project.version}" byline="true" />
-								<replaceregexp file="${manifest.file}" match="Bundle-Version: (.*)-SNAPSHOT" replace="Bundle-Version: \1" byline="true" />
+								<replaceregexp file="${manifest.file}" match="Bundle-Version: (.*)" replace="Bundle-Version: ${bundle.version}" byline="true" />
 
 								<replaceregexp file="${manifest.file}" match="Bundle-Vendor: (.*)" replace="Bundle-Vendor: ${project.organization.name}" byline="true" />
 							</target>
