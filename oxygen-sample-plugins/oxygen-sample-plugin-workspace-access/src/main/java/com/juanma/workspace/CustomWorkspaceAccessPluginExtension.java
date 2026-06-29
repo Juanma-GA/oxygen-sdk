@@ -689,7 +689,7 @@ public class CustomWorkspaceAccessPluginExtension implements WorkspaceAccessPlug
       final Action selectionSourceAction,
       final Action surroundWithAction) {
     // CMS menu
-    Menu menuCMS = new Menu("CMS", true); 
+    Menu menuCMS = new Menu("ATEXIS SmartCMS", true);
     
     // Add Check In action on the menu 
     final JMenuItem checkInItem = new JMenuItem(checkInAction); 
