@@ -11,8 +11,10 @@
  class="com.juanma.workspace.WorkspaceAccessPlugin"
  classLoaderType="preferReferencedResources">
  <runtime>
-        <library name="lib/${project.build.finalName}.jar"/>
- </runtime>
+    <library name="target/classes"/>
+    <librariesFolder name="target/lib"/>
+    <librariesFolder name="lib"/>
+  </runtime>
  
  <extension type="WorkspaceAccess" 
   class="com.juanma.workspace.CustomWorkspaceAccessPluginExtension"/>
