@@ -6,7 +6,7 @@
  id="com.oxygenxml.plugin.WorkspaceAccess"
  name="CustomWorkspaceAccess"
  description="Test"
- version="${project.nosnapshot.version}"
+ version="1.0.0"
  vendor="Syncro Soft"
  class="com.juanma.workspace.WorkspaceAccessPlugin"
  classLoaderType="preferReferencedResources">
