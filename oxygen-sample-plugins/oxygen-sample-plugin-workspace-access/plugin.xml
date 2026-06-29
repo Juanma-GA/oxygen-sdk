@@ -12,8 +12,6 @@
  classLoaderType="preferReferencedResources">
  <runtime>
     <library name="target/classes"/>
-    <librariesFolder name="target/lib"/>
-    <librariesFolder name="lib"/>
   </runtime>
  
  <extension type="WorkspaceAccess" 
